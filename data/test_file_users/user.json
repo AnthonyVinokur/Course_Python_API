@@ -1,0 +1,26 @@
+{
+     "usuarios": [
+       {
+         "nome": "Vinokurio",
+         "email": "igor@qa.com",
+         "password": "teste",
+         "administrator": "true",
+         "status_expected": 201
+       },
+
+       {
+            "nome": "Fulano",
+            "email": "brano@qa.com.br",
+            "password": "testing",
+            "administrator": "false",
+            "status_expected": 400
+        },
+        {
+            "nome": "teste12",
+            "email": "teste12@qa.com.br",
+            "password": "teste12",
+            "administrator": "false",
+            "status_expected": 400
+        }
+               ]
+}
